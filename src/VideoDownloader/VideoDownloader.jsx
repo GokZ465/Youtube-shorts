@@ -8,7 +8,7 @@ const VideoDownloader = () => {
   };
 
   const handleDownload = () => {
-    const apiUrl = `http://localhost:3000/download?url=${encodeURIComponent(
+    const apiUrl = `http://localhost:3000/play?url=${encodeURIComponent(
       videoUrl
     )}`;
     window.open(apiUrl, "_blank");
